@@ -1,0 +1,91 @@
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 编辑器/IDE
+.idea/
+*.suo
+*.user
+*.bak
+*.swp
+*.swo
+*.vssscc
+*.vspscc
+*.ncb
+*.sdf
+*.aps
+ipch/
+*.ilk
+*.pdb
+*.cache
+.vscode/
+
+# 编译/构建输出
+build/
+dist/
+target/
+bin/
+obj/
+*.o
+*.exe
+*.dll
+*.so
+*.class
+*.pyc
+__pycache__/
+
+# 日志文件
+*.log
+
+# 软件包管理器/依赖管理
+node_modules/
+vendor/
+packages/
+
+# 配置文件 (根据需要保留特定的配置文件，例如 .env.example)
+*.env
+.env.*
+!.env.example
+
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.gz
+*.tar
+
+# 其他常见忽略
+*.DS_Store
+*.orig
+*.tmp
+temp/
+tmp/
+.history
+.bundle
+
+# 数据库文件 (根据需要)
+*.sqlite
+*.db
+
+# 证书文件 (绝对不要提交)
+*.pfx
+*.cer
+*.p12
+
+# 缓存文件
+.cache/
+
+# 调试文件
+*.dump
+
+# 文本编辑器备份文件
+*~
+
+# 忽略所有以 ~ 结尾的文件
+*~
+
+# 忽略所有以 # 开头和结尾的文件
+\#*\#
+
+# 忽略所有名为 ._* 的文件
+._*
